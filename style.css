@@ -99,7 +99,6 @@ section {
 
 .content {
     max-width: 60rem;
-
 }
 
 .content h3 {
@@ -253,4 +252,30 @@ section {
 .footer .share img:hover {
     width: 60px;
     height: 60px;
+}
+
+@media screen and (max-width: 1030px) {
+    .about .row {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: none;
+    }
+
+    section {
+        padding: 3rem 2rem;
+        max-width: 450px;
+    }
+
+    .about .row .container-image img {
+        width: 100%;
+    }
+
+    iframe {
+        width: 100%;
+    }
 }
