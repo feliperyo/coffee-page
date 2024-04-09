@@ -150,7 +150,7 @@ section {
     line-height: 1.8;
 }
 
-.menu .box-container {
+.box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
@@ -200,4 +200,56 @@ section {
     color: var(--main-color);
     font-size: 2.5rem;
     padding: 0.5rem 0;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.review .box-container .box p {
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 2rem 0;
+    line-height: 1.8;
+    font-weight: 100;
+}
+
+.review .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--white);
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+.review .box-container .box .user {
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer .share {
+    padding: 1rem 0;
+}
+
+.footer .share img {
+    margin: 0.3rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.footer .share img:hover {
+    width: 60px;
+    height: 60px;
 }
